@@ -1,9 +1,0 @@
-{
-  "name": "tcprint-my",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "check": "node --check assets/js/app.js",
-    "build": "node scripts/build.js"
-  }
-}
