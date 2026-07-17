@@ -1,0 +1,14 @@
+{
+  "name": "printking",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node scripts/build.js",
+    "check": "node --check server.js && node --check scripts/build.js && node --check api/pricing.js && node --check api/admin/login.js && node --check api/admin/logout.js && node --check api/admin/pricing.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
